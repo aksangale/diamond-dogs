@@ -3,7 +3,7 @@
 # The web app has a customizable image and some text.
 
 sudo apt -y update
-sudo apt -y install apache2 cowsay
+sudo apt -y install apache2 cowsay git
 sudo systemctl start apache2
 sudo chown -R ubuntu:ubuntu /var/www/html
 
